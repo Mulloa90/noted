@@ -30,6 +30,11 @@ class Store {
       .then((result) => this.write(result))
       .then(() => note);
   }
+  deleteNote(id) {
+    return this.getNotes()
+    .then((result) => result.filter((note)=> note.id !==id))
+    .then((result) => this.write(result))
+  }
 }
 
 module.exports = new Store();
