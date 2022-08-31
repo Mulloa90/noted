@@ -4,7 +4,7 @@ const express = require('express');
 const html = require('./routes/htmlroutes')
 const api = require('./routes/apiroutes')
 
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORTgit  || 3001;
 
 const app = express();
 
