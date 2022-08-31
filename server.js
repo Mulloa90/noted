@@ -4,8 +4,8 @@ const express = require('express');
 const html = require('./routes/htmlroutes')
 const api = require('./routes/apiroutes')
 
-const PORT = process.env.PORTgit  || 3001;
-
+const PORT = process.env.PORT || 3001;
+const host = "0.0.0.0";
 const app = express();
 
 // Middleware for parsing JSON and urlencoded form data
@@ -19,6 +19,6 @@ app.use('/api', api);
 
 
 
-app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
+app.listen(PORT, host, () =>
+  console.log(`running on PORT: ${PORT} 🚀`)
 );
