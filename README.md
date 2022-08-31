@@ -15,6 +15,8 @@ w3schools.com Udemy.com Youtube.com MDN.
 Html, CSS, Javascript node, Express.js
 <h2> Deployed page link:</h2>
 
+https://pacific-reef-81148.herokuapp.com/
+
 <h2>Screenshot</h2>
 
 ![Noted pic](https://user-images.githubusercontent.com/102636855/187570730-5e0ede02-37ad-42d0-9a94-22195065cb0f.png)
